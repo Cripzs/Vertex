@@ -154,7 +154,7 @@ local Shadow_3 = Instance.new("ImageLabel")
         uiName.Size = UDim2.new(1, 0, 0, 15)
         uiName.Font = Enum.Font.GothamMedium
         uiName.RichText = true
-        uiName.Text = "<font color=\"rgb(129, 145, 255)\">Kidachi</font>"
+        uiName.Text = "<font color=\"rgb(129, 145, 255)\">Vertex</font>"
         uiName.TextColor3 = Color3.fromRGB(235, 235, 235)
         uiName.TextSize = 13.000
 
