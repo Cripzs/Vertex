@@ -91,7 +91,7 @@ function Library.DestroyUI()
 end
 function Library.Render(settings)
     settings = settings or {}
-    local Title = settings.Title or "Kidachi"
+    local Title = settings.Title or "Vertex"
     local SavePosition = settings.SavePosition or false 
     local Options = settings.Options or {}
  
