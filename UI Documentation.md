@@ -1,5 +1,10 @@
 # UI Documentation
 
+## "Fetch" the Fullyz.xyz library
+```lua
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Cripzs/Fullyz.xyz/main/UI%20Library.lua'))()
+```
+
 ## Creating the Window
 ```lua
 local Box = Library.Render({
@@ -25,7 +30,7 @@ local Dropdown = Section:Dropdown({
 })
 ```
 
-## Creating a datalist
+## Creating a datalist ~Multi dropdown
 ```lua
 local Datalist = Section:Datalist({
     Title = 'Datalist #1',
